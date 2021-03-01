@@ -29,5 +29,10 @@ public class ClientesServiceImpl implements ClientesService {
 	public void clienteCommit() {
         System.out.println("cliente commit");		
 	}
+	@Override
+	public void version3Ultima() {
+        System.out.println("version3ultima");		
+		
+	}
 
 }

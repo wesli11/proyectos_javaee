@@ -8,4 +8,5 @@ public interface ClientesService {
 	List<Cliente> obtenerClientes();
 	void actualizarCliente(Cliente cliente);
 	void clienteCommit();
+	void version3Ultima();
 }
