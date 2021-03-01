@@ -25,5 +25,9 @@ public class ClientesServiceImpl implements ClientesService {
 		em.merge(cliente);
 
 	}
+	@Override
+	public void clienteCommit() {
+        System.out.println("cliente commit");		
+	}
 
 }
